@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/chris/projects/pcb/jfet-555-bypass/jfet-555-bypass/jfet-555-bypass.kicad_sch</source>
+    <date>Sun 15 Oct 2023 23:33:15 BST</date>
+    <tool>Eeschema 7.0.8-7.0.8~ubuntu22.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>jfet-555-bypass.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/">
+      <title_block>
+        <title>EQD Plume Clone</title>
+        <company/>
+        <rev>A</rev>
+        <date>2023-08-31</date>
+        <source>bypass.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D4">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C965812</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C965812"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed03769b-aebc-4f84-a0a3-80792188b694</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Power_Conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aacfd111-1c47-44c3-92e8-1082a38fb347</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>LED</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>795d8c00-1815-4c13-ad92-855a351e8375</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Signal1_Conn_01x02</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>97f5def0-c9fa-47c8-a59d-5c60306e9abc</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Signal2_Conn_01x02</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76dd85cb-211c-4be4-b6a9-f45cd02e6b4d</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4K7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C17673</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C17673"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="jfet-555-bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9cf8f86-8950-4aa3-8eb8-a293a987da0c</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>73e76371-0d15-4593-9fed-30885ba5d831</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>52d18140-358e-4b1c-8a8f-c20278bd096e</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>46f64d4a-7202-4b27-8794-2b7ee5e9739e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>eadd4222-564d-41d9-b4a8-76ed747effc1</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>5cd15666-5058-41af-b0a0-ab35d2cc365d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>7ab37ea2-f73d-4a95-9bec-ab842a8b4dd9</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>a16a0157-b865-41af-83b5-306956b5730b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>7a68881d-3790-4426-9833-7d5fb783e51d</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>e07d4869-205c-4f22-8f36-393a6d97cc81</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C7393936</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C7393936"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>3fd1f714-a7a9-45a5-aeba-b3f50a34fd8c</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C476766</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C476766"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>5d370968-1969-4b80-9424-57a571e23e63</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="LCSC">C2944153</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C2944153"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>2d5c58dd-4529-4738-832d-e1a3611ed704</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="LCSC">C2944153</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C2944153"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>84c0726c-0cc5-49f2-a125-ff1af939f180</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>D</value>
+      <footprint>Diode_SMD:D_SOD-123F</footprint>
+      <fields>
+        <field name="LCSC">C2944153</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="LCSC" value="C2944153"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>c6c9a570-ec42-4fd4-9c1c-cf688e162a9d</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Footswitch_conn_01x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="LCSC"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>7e0eee8d-0c90-4569-9427-b62ed6e7efc8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBFJ177LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301516_onsemi-MMBFJ177LT1G_C106763.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C896766</field>
+      </fields>
+      <libsource lib="Device" part="Q_PJFET_DSG" description="P-JFET transistor, drain/source/gate"/>
+      <property name="LCSC" value="C896766"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="P-JFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PJFET P-JFET"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>75e7fd56-e0f0-4463-8b58-4743bf647c4e</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBFJ177LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301516_onsemi-MMBFJ177LT1G_C106763.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C896766</field>
+      </fields>
+      <libsource lib="Device" part="Q_PJFET_DSG" description="P-JFET transistor, drain/source/gate"/>
+      <property name="LCSC" value="C896766"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="P-JFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PJFET P-JFET"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>08d395b2-7de9-448c-919c-8f337c08edbd</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBFJ177LT1G</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-3</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810301516_onsemi-MMBFJ177LT1G_C106763.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C896766</field>
+      </fields>
+      <libsource lib="Device" part="Q_PJFET_DSG" description="P-JFET transistor, drain/source/gate"/>
+      <property name="LCSC" value="C896766"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="P-JFET transistor, drain/source/gate"/>
+      <property name="ki_keywords" value="transistor PJFET P-JFET"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>6713fe31-ba5e-4080-92c4-63cf66862a9d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2930231</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2930231"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>5d7de176-faf9-442d-8103-a65b3dfb5ca7</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2930231</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2930231"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>57022380-8b18-4e8c-9c6c-5ed5a95546bb</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>eb91686a-f649-4dbd-96ac-99005767b352</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>5c8659e4-6c92-467e-b8f7-c60e55abe3b1</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>10b8b175-df28-45bf-ada3-1342b25aa30c</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>4f96a51e-f57d-4cf7-9324-aa6f458b5074</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>d342ad88-60d3-4562-b3d2-4af7448dc8fe</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>df0003d7-6f6e-404d-b86c-30ff5caae2a9</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>330K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <fields>
+        <field name="LCSC">C2907293</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C2907293"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>bbaae89a-b162-4c5c-8711-36a48ae66585</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NE555DR</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/ne555.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C695838</field>
+      </fields>
+      <libsource lib="CustomTimer" part="NE555D" description="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="LCSC" value="C695838"/>
+      <property name="Sheetname" value="bypass"/>
+      <property name="Sheetfile" value="bypass.kicad_sch"/>
+      <property name="ki_description" value="Precision Timers, 555 compatible, SOIC-8"/>
+      <property name="ki_keywords" value="single timer 555"/>
+      <sheetpath names="/bypass/" tstamps="/56018d2c-2c8f-490c-842d-8e0f71c6e55f/"/>
+      <tstamps>747f74fc-dd4e-436a-99d5-b6fba175f393</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CustomTimer" part="NE555D">
+      <description>Precision Timers, 555 compatible, SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/ne555.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NE555D</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/ne555.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TR" type="input"/>
+        <pin num="3" name="Q" type="output"/>
+        <pin num="4" name="R" type="input"/>
+        <pin num="5" name="CV" type="input"/>
+        <pin num="6" name="THR" type="input"/>
+        <pin num="7" name="DIS" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PJFET_DSG">
+      <description>P-JFET transistor, drain/source/gate</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PJFET_DSG</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="G" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="CustomTimer">
+      <uri>/home/chris/projects/pcb/jfet-555-bypass/jfet-555-bypass/CustomTimer.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+9V">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="Q2" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="Q3" pin="3" pinfunction="G" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="R" pintype="input"/>
+      <node ref="U1" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/bypass/led_cathode_vdd">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="3" name="/clean_in_conn">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="4" name="/clean_out_conn">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="5" name="/fx_return_conn">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/fx_send_conn">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="8" name="Net-(D1-K)">
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="Q" pintype="output"/>
+    </net>
+    <net code="9" name="Net-(D4-A)">
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(J1-Pin_1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="TR" pintype="input"/>
+      <node ref="U1" pin="6" pinfunction="THR" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(J1-Pin_2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(Q1-D)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q1-S)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q2-D)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q2-S)">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q3-D)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="D" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q3-S)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U1-CV-Pad5)">
+      <node ref="U1" pin="5" pinfunction="CV" pintype="input+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-DIS-Pad7)">
+      <node ref="U1" pin="7" pinfunction="DIS" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
